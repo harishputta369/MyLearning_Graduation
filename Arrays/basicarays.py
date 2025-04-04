@@ -1,0 +1,26 @@
+import array as A
+a=A.array('i',[1,5,6,9])
+a.append(100)
+print(a)
+a.append(200)
+print(a)
+a.append(300)
+print(a)
+a.insert(0,500)
+print(a)
+a.pop()
+print(a)
+a.pop(2)
+print(a)
+#a.delete(100)
+#print(a)
+z=a.index(500)
+print(z)
+print(a.remove(500))
+#reading arrays with for loop
+b=A.array('i',[])
+for i in range(5):
+    b.append(int(input()))
+print(b)
+print(a+b)
+
